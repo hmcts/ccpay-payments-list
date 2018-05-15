@@ -1,0 +1,12 @@
+{
+  "name": "ccpay-payments-list",
+  "version": "1.0.0",
+  "description": "A web component for services to display payments returned from ccpay into a html table",
+  "main": "index.js",
+  "repository": "https://github.com/hmcts/ccpay-payments-list.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Magdalena",
+  "license": "ISC"
+}

@@ -24,12 +24,12 @@ Copy the following files to your project:
 
  - Import the 3 scripts from the locations they are visible. Example:
  
- `<script src="../imports/webcomponents-bundle.js">    
-  </script>
-  <script src="../imports/json2html.js">
-  </script>
-  <script src="../payments.js" defer>
-  </script>`   
+ `<script src="../imports/webcomponents-bundle.js">`
+  `</script>`
+  `<script src="../imports/json2html.js">`
+  `</script>`
+  `<script src="../payments.js" defer>`
+  `</script>`   
   
   - Declare the template
   

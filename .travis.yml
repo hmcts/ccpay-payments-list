@@ -1,10 +1,10 @@
 language: node_js
+node_js:
+  - "6"
 addons:
   apt:
     update: true
 cache: yarn
-script:
-- yarn build
 deploy:
   provider: npm
   email: jenkins-reform@hmcts.net

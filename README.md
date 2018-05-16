@@ -13,6 +13,8 @@ HTML5 Web component to display lists of payments
 - imports/webcomponents-bundle.js
 - imports/json2html.js
 
+Check the example on the demo folder
+
 # Vanilla
 
 Download and copy the following files into your project:
@@ -21,6 +23,7 @@ Download and copy the following files into your project:
 - imports/webcomponents-bundle.js
 - imports/json2html.js
 
+Check the example on the demo folder
 
 # How to use
 

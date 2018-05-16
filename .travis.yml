@@ -13,4 +13,4 @@ deploy:
   on:
     tags: false
     repo: hmcts/ccpay-payments-list
-skip_cleanup: false
+skip_cleanup: true

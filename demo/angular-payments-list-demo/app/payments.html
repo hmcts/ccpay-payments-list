@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POC</title>
+
+    <script src="public/webcomponents-bundle.js">
+    </script>
+
+    <script src="public/json2html.js">
+
+    </script>
+
+    <script src="public/payments.js" defer>
+    </script>
+
+</head>
+<body>
+
+    <template id="payments-list"></template>
+
+<payments-list data='[{
+ "date" : "2012-04-23T18:25:43.511Z",
+ "payer" : "Mr Payer",
+ "amount": 120,
+ "description": "cmc",
+ "reference": "RC-1526-3931-9055-1465",
+ "currency": "GBP",
+ "ccd_case_number": "1234567891234567",
+ "case_reference": "3123213",
+ "channel": "online",
+ "method": "card",
+ "external_provider": "gov pay",
+ "status": "Initiated",
+ "external_reference": "il7d49d56icblsgsb4m6v16e26",
+ "site_id": "SIT01",
+ "service_name": "Civil Money Claims",
+ "fees": [
+   {
+     "code": "FEE0001",
+     "version": "1",
+     "calculated_amount": 10
+   }
+ ],
+ "_links": {
+   "self": {
+     "href": "https://payments.reform.hmcts.net/card-payments/RC-1526-3931-9055-1465",
+     "method": "GET"
+   }
+ }
+}]'></payments-list>
+
+</body>
+</html>

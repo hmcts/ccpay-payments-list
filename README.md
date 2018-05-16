@@ -6,25 +6,32 @@ HTML5 Web component to display lists of payments
 
 # Node.js / Angular
 
-1. npm i @hmcts/ccpay-payments-list
-2. modify your build process so it copies these files to locations where they will be visible on the client-side.
+1. RUN `npm i @hmcts/ccpay-payments-list` OR ADD this dependency "@hmcts/ccpay-payments-list": "^1.0.0" to package.json
+2. modify your build process so it copies the following files to a location where they are be visible on the browswer:
+
+- payments.js
+- imports/webcomponents-bundle.js
+- imports/json2html.js
 
 # Vanilla
 
-Copy the following files to your project:
+Download and copy the following files into your project:
 
+- payments.js
 - imports/webcomponents-bundle.js
 - imports/json2html.js
-- payments.js
+
 
 # How to use
 
  - Import the 3 scripts from the locations they are visible. Example:
  
- `<script src="../imports/webcomponents-bundle.js">`
+  `<script src="../imports/webcomponents-bundle.js">`
   `</script>`
+
   `<script src="../imports/json2html.js">`
   `</script>`
+
   `<script src="../payments.js" defer>`
   `</script>`   
   
@@ -36,4 +43,4 @@ Copy the following files to your project:
   
  `<payments-list data='jsonDataAsItComesFromTheService'></payments-list>`
   
-  In the data attribute pass the body response received from the payments by case endpoint
+In the data attribute pass the body response received from the payments by case endpoint

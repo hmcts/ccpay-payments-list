@@ -4,13 +4,10 @@ HTML5 Web component to display lists of payments
 
 # How to install
 
-# Node.js
+# Node.js / Angular
 
-TODO
-
-# Angular
-
-TODO
+1. npm i @hmcts/ccpay-payments-list
+2. modify your build process so it copies these files to locations where they will be visible on the client-side.
 
 # Vanilla
 

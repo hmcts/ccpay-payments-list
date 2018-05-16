@@ -7,6 +7,8 @@ yarn-error.log
 
 # JetBrains
 .idea/
+.idea
+.idea/*.xml
 
 # VS Code
 .vscode/
